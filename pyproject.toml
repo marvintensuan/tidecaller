@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tidecaller"
+version = "0.0.1"
+description = "Official entry to Project Sparta Hackathon"
+authors = ["Marvin <mdtensuan_dev@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+fastapi = "^0.68.1"
+websocket = "^0.2.1"
+uvicorn = "^0.15.0"
+websocket-client = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
