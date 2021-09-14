@@ -65,7 +65,7 @@ UnboundLocalError: local variable 'response' referenced before assignment
 - To view data from specific sensor (e.g. Butuan City's Tide sensor), the website establishes a connection to the websocket `ws://202.90.159.176:8080/station/5/987` where:
     - `5` is the sensor type ID (tide); and
     - `987` is the location ID (Butuan City).
-- The data obtained from the websocket is in the form of `byte` string, a sample of which is in the [sample_response.txt]().
+- The data obtained from the websocket is in the form of `byte` string, a sample of which is in the [sample_response.txt](https://github.com/marvintensuan/tidecaller/blob/master/sample_response.txt).
 
 ## Methodology
 
